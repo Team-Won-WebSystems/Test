@@ -2,16 +2,21 @@
 @model Test.Models.DroneDataModel
 
 @{
+    var imagePath = "";
     ViewData["Title"] = "Home Page";
+    imagePath = @"./drone.png";
 }
 <div class="text-center">
     <h1 class="display-4">Hello World</h1>
     <p class="display-10">Hello World is cool</p>
     <div class="largeFeatureCard">
         <div class="leftText">
-            <h1 class="display-4">Hello World</h1>
-            <img class="rightImg" src="<%=ResolveUrl("~/drone.png")%>">
+            <h1 class="display-5">Hello World 12345678910</h1>
+            <p class="display-7">Yes we area drone thing yes indeed, jeffery bezos..... yes jeff</p>
+            <h3 class="display-8">Learn More</h3>
+
         </div>
+        <img class="rightImg" src=@imagePath />
     </div>
         <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
         <h1>@Model.id</h1>

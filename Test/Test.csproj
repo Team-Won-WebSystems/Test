@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\css\drone.png" />
+    <Content Remove="wwwroot\drone.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\css\drone.png" />
+    <None Include="wwwroot\drone.png" />
   </ItemGroup>
 </Project>
