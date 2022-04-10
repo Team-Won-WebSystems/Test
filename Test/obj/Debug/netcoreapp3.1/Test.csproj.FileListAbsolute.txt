@@ -7,7 +7,6 @@
 /Users/andreasink/Projects/Test/Test/bin/Debug/netcoreapp3.1/Test.pdb
 /Users/andreasink/Projects/Test/Test/bin/Debug/netcoreapp3.1/Test.Views.dll
 /Users/andreasink/Projects/Test/Test/bin/Debug/netcoreapp3.1/Test.Views.pdb
-/Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.AssemblyReference.cache
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.GeneratedMSBuildEditorConfig.editorconfig
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfoInputs.cache
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfo.cs
@@ -33,3 +32,4 @@
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.pdb
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CopyComplete
+/Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.AssemblyReference.cache

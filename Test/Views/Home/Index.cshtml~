@@ -1,0 +1,50 @@
+﻿
+@model Test.Models.DroneDataModel
+
+@{
+    var gridPath = "";
+    var imagePath = "";
+    ViewData["Title"] = "Home Page";
+    imagePath = @"./build.svg";
+    gridPath = @"./grid.png";
+}
+@*<meta name="viewport" content="width=device-width, initial-scale=1">*@
+<div class="container">
+    <div class="text-center" style="margin-top: 20%">
+        <h1 class="display-3"><strong>Build An Amazing Site</strong></h1>
+        <p class="display-5">Built for flexibility and power, Construction.Site improves your web presence</p>
+        <button class="cta" style="border-color: #74B9FF; white; background-color: #74B9FF";>START BUILDING</button>
+        <div class="zstack">
+            <div class="row-fluid" style="margin-top: 10%">
+                <div class="span4">
+                    <div class="leftText">
+                        <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                        <p style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                        <h3 style="text-align: left">Learn More</h3>
+                    </div>
+                </div>
+                    <div class="span8">
+                        <img class="rightImg" src=@imagePath />
+                   
+                </div>
+                </div>
+            <img class="back" src=@gridPath />
+        </div>
+            @*<div class="zstack" style="margin-top: 5%">
+
+                <div class="largeFeatureCard">
+
+                    <div class="leftText">
+                        <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                        <p  style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                        <h3 style="text-align: left">Learn More</h3>
+                    </div>
+                    <img class="rightImg" src=@imagePath />
+                    <img class="back" src=@gridPath />
+                </div>
+
+            </div>*@
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            <h1>@Model.id</h1>
+        </div>
+    </div>

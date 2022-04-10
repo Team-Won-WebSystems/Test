@@ -2,22 +2,55 @@
 @model Test.Models.DroneDataModel
 
 @{
+    var gridPath = "";
     var imagePath = "";
+    var backPath = "";
     ViewData["Title"] = "Home Page";
-    imagePath = @"./drone.png";
+    imagePath = @"./build.svg";
+    gridPath = @"./grid.png";
+    backPath = @"./back.png";
 }
-<div class="text-center">
-    <h1 class="display-4">Hello World</h1>
-    <p class="display-10">Hello World is cool</p>
-    <div class="largeFeatureCard">
-        <div class="leftText">
-            <h1 class="display-5">Hello World 12345678910</h1>
-            <p class="display-7">Yes we area drone thing yes indeed, jeffery bezos..... yes jeff</p>
-            <h3 class="display-8">Learn More</h3>
+@*<meta name="viewport" content="width=device-width, initial-scale=1">*@
+<div class="container">
+    <img class="background" src=@backPath />
+    <div id="onTop" class="text-center" style="margin-top: 20%; z-index: 2;">
+        <h1 class="display-3"><strong>Build An Amazing Site</strong></h1>
+        <p class="display-5" style="padding-bottom: 5%">Built for flexibility and power, Construction.Site improves your web presence</p>
+        <button type="button" class="btn btn-primary" style="border-color: #74B9FF; background-color: #74B9FF">START BUILDING</button>
+        @*<div class="zstack">*@
 
+        <div id="largeFeatureCard" class="row-fluid" style="margin-top: 10%">
+            <div class="span4">
+                <div class="leftText">
+                    <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                    <p style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                    <h3 style="text-align: left">Learn More</h3>
+                </div>
+            </div>
+            <div class="span8">
+                <img class="rightImg" src=@imagePath />
+
+            </div>
+            <img class="back" src=@gridPath />
         </div>
-        <img class="rightImg" src=@imagePath />
-    </div>
+
+        @*</div>*@
+        @*<div class="zstack" style="margin-top: 5%">
+
+                <div class="largeFeatureCard">
+
+                    <div class="leftText">
+                        <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                        <p  style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                        <h3 style="text-align: left">Learn More</h3>
+                    </div>
+                    <img class="rightImg" src=@imagePath />
+                    <img class="back" src=@gridPath />
+                </div>
+
+            </div>*@
         <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
         <h1>@Model.id</h1>
     </div>
+
+</div>
