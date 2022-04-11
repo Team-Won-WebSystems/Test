@@ -124,7 +124,8 @@ button.cta {
     /*min-height: 500px;
     padding: 5%;*/
     margin: auto;
-    /*    min-Height: 500px;*/
+
+        min-Height: 500px;
     /*align-self: center;
     align-content: center;*/
     /*    background: linear-gradient(#0984E3, #74B9FF);*/
@@ -141,7 +142,7 @@ button.cta {
 
 .rightImg {
     z-index: 2;
-    width: 50%;
+    width: 30%;
     position: absolute;
     margin-left: 5%;
     /*    margin-right:10%;*/
@@ -152,13 +153,14 @@ button.cta {
 }
 
 .leftText {
-    width: 100%;
+/*        width: 50%;*/
     position: absolute;
+    padding-left: 5%;
     padding-right: 60%;
     padding-top: 15%;
     padding-bottom: 17%;
     color: white;
-    margin-left: 5%;
+    /*    margin-left: 25%;*/
     text-align: left;
     z-index: 2;
 }

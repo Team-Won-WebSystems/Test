@@ -4,14 +4,16 @@
     var gridPath = "";
     var imagePath = "";
     var backPath = "";
+    var bestPath = "";
     ViewData["Title"] = "Home Page";
     imagePath = @"./build.svg";
     gridPath = @"./grid.png";
     backPath = @"./back.png";
+    bestPath = @"./BestPower.png";
 }
 @*<meta name="viewport" content="width=device-width, initial-scale=1">*@
-@*<body background= "./back.png">*@
-    <div class="container" >
+<body background= "./back.png">
+    <div class="container" style="margin: auto; align-content: center">
         @*<img class="background" src= "@backPath"/>*@
         <div id="onTop" class="text-center" style="margin-top: 20%; z-index: 2;">
             <h1 class="display-3"><strong>Build An Amazing Site</strong></h1>
@@ -20,35 +22,36 @@
             @*<div class="zstack">*@
 
             <div id="largeFeatureCard" class="row-fluid" style="margin-top: 10%">
-                <div class="span4">
+                <div class="span3" style="padding-left: 10%">
                     <div class="leftText">
-                        <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                        <h2 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h2>
                         <p style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
-                        <h3 style="text-align: left">Learn More</h3>
+                        <h4 style="text-align: left">Learn More</h4>
                     </div>
                 </div>
-                <div class="span8">
+                <div class="span2" style="padding-right: 10%">
                     <img class="rightImg" src=@imagePath />
 
                 </div>
-                @*<img class="back" src=@gridPath style="max-width: 90%"/>*@
+                <img class="back" src=@gridPath style="max-width:80%" />
             </div>
 
             @*</div>*@
             @*<div class="zstack" style="margin-top: 5%">
-                    <div class="largeFeatureCard">
-                        <div class="leftText">
-                            <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
-                            <p  style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
-                            <h3 style="text-align: left">Learn More</h3>
-                        </div>
-                        <img class="rightImg" src=@imagePath />
-                        <img class="back" src=@gridPath />
-                    </div>
-                </div>*@
+            <div class="largeFeatureCard">
+                <div class="leftText">
+                    <h1 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h1>
+                    <p  style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                    <h3 style="text-align: left">Learn More</h3>
+                </div>
+                <img class="rightImg" src=@imagePath />
+                <img class="back" src=@gridPath />
+            </div>
+        </div>*@
             @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-            <h1>@Model.id</h1>*@
+        <h1>@Model.id</h1>*@
+            <img src=@bestPath style="max-width:80%; margin-top: 5%" />
         </div>
 
     </div>
-@*</body>*@
+</body>

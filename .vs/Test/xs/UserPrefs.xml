@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{A514CBAA-E0FB-4D64-8300-3D0F2D556C58}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/wwwroot/css/site.css">
     <Files>
       <File FileName="Test/Models/ErrorViewModel.cs" Line="12" Column="1" />
       <File FileName="Test/Controllers/HomeController.cs" />
-      <File FileName="Test/Views/Home/Index.cshtml" Line="15" Column="64" />
+      <File FileName="Test/Views/Home/Index.cshtml" />
       <File FileName="Test/Views/Home/Privacy.cshtml" />
       <File FileName="Test/Views/Shared/_Layout.cshtml" />
       <File FileName="Test/Properties/launchSettings.json" />
@@ -14,7 +14,7 @@
       <File FileName="Test/Models/DroneDataModel.cs" />
       <File FileName="Test/Views/_ViewStart.cshtml" />
       <File FileName="Test/Views/_ViewImports.cshtml" />
-      <File FileName="Test/wwwroot/css/site.css" />
+      <File FileName="Test/wwwroot/css/site.css" Line="159" Column="21" />
       <File FileName="Test/wwwroot/js/site.js" />
       <File FileName="Test/appsettings.Development.json" />
       <File FileName="Test/Views/Home/Index.cshtml~" />
@@ -27,12 +27,12 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
