@@ -5,11 +5,13 @@
     var imagePath = "";
     var backPath = "";
     var bestPath = "";
+    var inpsirePath = "";
     ViewData["Title"] = "Home Page";
     imagePath = @"./build.svg";
     gridPath = @"./grid.png";
     backPath = @"./back.png";
     bestPath = @"./BestPower.png";
+    inpsirePath = @"./Inspire.png";
 }
 @*<meta name="viewport" content="width=device-width, initial-scale=1">*@
 <body background= "./back.png">
@@ -50,7 +52,19 @@
         </div>*@
             @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
         <h1>@Model.id</h1>*@
-            <img src=@bestPath style="max-width:80%; margin-top: 5%" />
+            <img class="display-3" src=@bestPath style="max-width:80%; margin-top: 5%" />
+
+            <div id="onTop" class="text-center" style="margin-top: 20%; z-index: 2;">
+
+
+                <h1 class="display-3"><strong>Be Inspired</strong></h1>
+                <p class="display-5" style="padding-bottom: 5%">See what we can construct at Construction.Site</p>
+                <a href="https://andreasink.web.app">
+                   
+                    <img id="largeFeatureCard" class="display-3" src=@inpsirePath style="max-width: 110%;" />
+                </a>
+
+            </div>
         </div>
 
     </div>

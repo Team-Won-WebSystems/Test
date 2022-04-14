@@ -33,3 +33,4 @@
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CopyComplete
 /Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.AssemblyReference.cache
+/Users/andreasink/Projects/Test/Test/obj/Debug/netcoreapp3.1/Razor/Views/Home/Chatbot.cshtml.g.cs

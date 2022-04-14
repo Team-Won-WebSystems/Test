@@ -1,0 +1,7 @@
+﻿@page
+@{
+
+}
+
+
+<a class="nav-link text-dark" asp-area="" asp-controller="Chatbot" asp-action="Index">Home</a>
