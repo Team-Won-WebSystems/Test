@@ -22,21 +22,23 @@
             <p class="display-5" style="padding-bottom: 5%">Built for flexibility and power, Construction.Site improves your web presence</p>
             <button type="button" class="btn btn-primary" style="border-color: #74B9FF; background-color: #74B9FF">START BUILDING</button>
             @*<div class="zstack">*@
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                <div id="largeFeatureCard" class="row-fluid" style="margin-top: 10%">
+                    <div class="span3" style="padding-left: 10%">
+                        <div class="leftText">
+                            <h2 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h2>
+                            <p style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
+                            <h4 style="text-align: left">Learn More</h4>
+                        </div>
 
-            <div id="largeFeatureCard" class="row-fluid" style="margin-top: 10%">
-                <div class="span3" style="padding-left: 10%">
-                    <div class="leftText">
-                        <h2 style="text-align: left; margin-bottom: 5%">Powerful Website Builder</h2>
-                        <p style="text-align: left">Build amazing websites DIY or with professional support and have access to intutive frameworks and tools</p>
-                        <h4 style="text-align: left">Learn More</h4>
                     </div>
-                </div>
-                <div class="span2" style="padding-right: 10%">
-                    <img class="rightImg" src=@imagePath />
+            </a>
+            <div class="span2" style="padding-right: 10%">
+                <img class="rightImg" src=@imagePath />
 
-                </div>
-                <img class="back" src=@gridPath style="max-width:80%" />
             </div>
+            <img class="back" src=@gridPath style="max-width:80%" />
+        </div>
 
             @*</div>*@
             @*<div class="zstack" style="margin-top: 5%">
@@ -60,7 +62,7 @@
                 <h1 class="display-3"><strong>Be Inspired</strong></h1>
                 <p class="display-5" style="padding-bottom: 5%">See what we can construct at Construction.Site</p>
                 <a href="https://andreasink.web.app">
-                   
+
                     <img id="largeFeatureCard" class="display-3" src=@inpsirePath style="max-width: 110%;" />
                 </a>
 
