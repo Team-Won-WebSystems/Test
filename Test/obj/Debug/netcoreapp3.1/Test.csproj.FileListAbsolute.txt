@@ -110,3 +110,4 @@ C:/Users/Mitchell/Source/Repos/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.Cop
 /Users/andreasink/Desktop/Test/Test/obj/Debug/netcoreapp3.1/Test.pdb
 /Users/andreasink/Desktop/Test/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache
 /Users/andreasink/Desktop/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CopyComplete
+/Users/andreasink/Desktop/Test/Test/obj/Debug/netcoreapp3.1/Razor/Views/Home/Auth.cshtml.g.cs

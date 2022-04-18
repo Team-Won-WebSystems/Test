@@ -11,16 +11,16 @@
 
 
 </head>
-
+ <h1 style="padding-bottom: 2%">FAQ</h1>
 <div class="vstack gap-3" style="margin-bottom: 10%">
     @foreach (var item in Model)
     {
 
 
-
+       
         <div class="hstack gap-2" style="background-color: #DFF4FF; margin-top: 5%; padding: 3%">
-            <h1>@Html.DisplayFor(modelItem => item.icon)</h1>
-            <h1> @Html.DisplayFor(modelItem => item.title)</h1>
+            <h2>@Html.DisplayFor(modelItem => item.icon)</h2>
+            <h2> @Html.DisplayFor(modelItem => item.title)</h2>
 
 
         </div>
@@ -29,8 +29,7 @@
 
     }
 </div>
-
-
+<h1 style="padding-bottom: 2%">Chatbot Support</h1>
 <iframe src="https://share.streamlit.io/team-won-websystems/chatbotbackend/main/main.py" title="description" style="width: 100%; height: 700px"></iframe>
 
 

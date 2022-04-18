@@ -20,7 +20,9 @@
         <div id="onTop" class="text-center" style="margin-top: 20%; z-index: 2;">
             <h1 class="display-3"><strong>Build An Amazing Site</strong></h1>
             <p class="display-5" style="padding-bottom: 5%">Built for flexibility and power, Construction.Site improves your web presence</p>
-            <button type="button" class="btn btn-primary" style="border-color: #74B9FF; background-color: #74B9FF">START BUILDING</button>
+            <a asp-area="" asp-controller="Home" asp-action="Auth">
+                <button class="btn btn-primary" style="border-color: #74B9FF; background-color: #74B9FF">START BUILDING</button>
+            </a>
             @*<div class="zstack">*@
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
                 <div id="largeFeatureCard" class="row-fluid" style="margin-top: 10%">

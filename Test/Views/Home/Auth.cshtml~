@@ -1,0 +1,11 @@
+﻿@page
+@{
+}
+<h1>Sign In</h1>
+<form method="post">
+    <input type="text" name="email" value="" />
+    <input type="text" name="password" value="" />
+    <br />
+
+</form>
+<button type="button" class="btn btn-primary" style="border-color: #74B9FF; background-color: #74B9FF">START BUILDING</button>

@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{A514CBAA-E0FB-4D64-8300-3D0F2D556C58}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Auth.cshtml">
     <Files>
       <File FileName="Test/Models/ErrorViewModel.cs" Line="12" Column="1" />
       <File FileName="Test/Controllers/HomeController.cs" />
@@ -20,10 +20,11 @@
       <File FileName="Test/Views/Home/Index.cshtml~" />
       <File FileName="Test/Controllers/ChatbotController.cs~" />
       <File FileName="Test/Controllers/HomeController.cs~" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml~" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml~" Line="1" Column="1" />
       <File FileName="Test/Views/Shared/_Layout.cshtml~" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml" Line="32" Column="26" />
       <File FileName="Test/Models/FAQModel.cs" Line="16" Column="1" />
+      <File FileName="Test/Auth.cshtml" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,12 +38,11 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
+              <Node name="Auth.cshtml" selected="True" />
             </Node>
           </Node>
         </State>

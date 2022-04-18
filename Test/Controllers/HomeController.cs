@@ -55,6 +55,10 @@ namespace Test.Controllers
         }
 
 
+        public IActionResult Auth()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
