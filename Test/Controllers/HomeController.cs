@@ -25,29 +25,37 @@ namespace Test.Controllers
         static HttpClient client = new HttpClient();
         private readonly ILogger<HomeController> _logger;
 
-         public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger)
         {
-           
-            
 
-           
+
+
+
             _logger = logger;
 
         }
 
         public IActionResult Index()
         {
-           
+
             return View(new DroneDataModel { id = 1 });
         }
-        
+
         public IActionResult Chatbot()
         {
-           
-            //_ = getCBRespose("hey");
-            return View();
+
+            List<FAQModel> faq = new List<FAQModel>();
+
+            faq.Add(new FAQModel { id = 1, title = "Why do I need a account?", description = "We provide an account option so you can save your work and overall have a better expereince!", icon = "😀" });
+            faq.Add(new FAQModel { id = 1, title = "How do I create a website?", description = "Construction.Site makes it super easy, just press this link below and follow the steps...", icon = "🚧" });
+            faq.Add(new FAQModel { id = 1, title = "Who can I contact for more support?", description = "Feel free to contact is at support@construction.site so we can further assist you!", icon = "🚀" });
+
+            return View(faq);
 
         }
+
+
+
         public IActionResult Privacy()
         {
             return View();
@@ -59,13 +67,7 @@ namespace Test.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        private static async Task getCBRespose(string input)
-        {
-            var streamTask = client.GetStreamAsync("https://chatbot-api-dtqb5qffza-ue.a.run.app/test?text=" + UrlEncode(input));
-            var response = await JsonSerializer.DeserializeAsync<CBResponse>(await streamTask);
-            Console.Write(response);
 
-        }
-      
+
     }
 }
