@@ -1,17 +1,20 @@
 ﻿@page
 @{
+    var backPath = @"../back.png";
 }
-<div class="container" style="margin: auto; align-content: center">
-    <div id="onTop" class="text-center" style="margin-top: 5%; z-index: 2;">
-        <h1 style="margin: 5%">Sign In</h1>
-        <form method="post">
-            <h2 >Email</h2>
-            <input type="text" name="email" value="" />
-            <h2 style="margin-top: 2%">Password</h2>
-            <input type="text" name="password" value="" />
-            <br />
+<body background=@backPath>
+    <div class="container" style="margin: auto; align-content: center">
+        <div id="onTop" class="text-center" style="margin-top: 5%; z-index: 2;">
+            <h1 style="margin: 5%">Sign In</h1>
+            <form method="post" style="background-color: transparent">
+                <h2>Email</h2>
+                <input type="text" name="email" value="" />
+                <h2 style="margin-top: 2%">Password</h2>
+                <input type="text" name="password" value="" />
+                <br />
 
-        </form>
-        <button type="button" class="btn btn-primary" style=" margin: 2%; border-color: #74B9FF; background-color: #74B9FF">SIGN IN</button>
+            </form>
+            <button type="button" class="btn btn-primary" style=" margin: 2%; border-color: #74B9FF; background-color: #74B9FF">SIGN IN</button>
+        </div>
     </div>
-</div>
+    </body>
