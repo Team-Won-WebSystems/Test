@@ -46,9 +46,9 @@ namespace Test.Controllers
 
             List<FAQModel> faq = new List<FAQModel>();
 
-            faq.Add(new FAQModel { id = 1, title = "Why do I need an account?", description = "We provide an account option so you can save your work and overall have a better expereince!", icon = "😀" });
-            faq.Add(new FAQModel { id = 1, title = "How do I create a website?", description = "Construction.Site makes it super easy, just press this link below and follow the steps...", icon = "🚧" });
-            faq.Add(new FAQModel { id = 1, title = "Who can I contact for more support?", description = "Feel free to contact is at support@construction.site so we can further assist you!", icon = "🚀" });
+            faq.Add(new FAQModel { id = 1, title = "Why do I need an account?", description = "We provide an account option so you can save your work and overall have a better expereince!", icon = "😀" , open = false});
+            faq.Add(new FAQModel { id = 1, title = "How do I create a website?", description = "Construction.Site makes it super easy, just press this link below and follow the steps...", icon = "🚧", open = false });
+            faq.Add(new FAQModel { id = 1, title = "Who can I contact for more support?", description = "Feel free to contact is at support@construction.site so we can further assist you!", icon = "🚀", open = false });
 
             return View(faq);
 

@@ -8,7 +8,7 @@ namespace Test.Models
         public string icon { get; set; }
         public string title { get; set; }
         public string description { get; set; }
-
+        public bool open { get; set; }
 
     }
 }

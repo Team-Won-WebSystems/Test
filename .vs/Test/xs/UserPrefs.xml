@@ -1,45 +1,44 @@
 ﻿<Properties StartupConfiguration="{A514CBAA-E0FB-4D64-8300-3D0F2D556C58}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Views/Home/Press.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Controllers/ChatbotController.cs">
     <Files>
       <File FileName="Test/Models/ErrorViewModel.cs" Line="12" Column="1" />
-      <File FileName="Test/Controllers/HomeController.cs" Line="68" Column="10" />
-      <File FileName="Test/Views/Home/Index.cshtml" Line="13" Column="24" />
+      <File FileName="Test/Controllers/HomeController.cs" Line="58" Column="36" />
+      <File FileName="Test/Views/Home/Index.cshtml" Line="68" Column="69" />
       <File FileName="Test/Views/Home/Privacy.cshtml" />
-      <File FileName="Test/Views/Shared/_Layout.cshtml" Line="45" Column="1" />
+      <File FileName="Test/Views/Shared/_Layout.cshtml" />
       <File FileName="Test/Properties/launchSettings.json" />
       <File FileName="Test/appsettings.json" />
-      <File FileName="Test/Program.cs" />
+      <File FileName="Test/Program.cs" Line="16" Column="1" />
       <File FileName="Test/Startup.cs" />
       <File FileName="Test/Models/DroneDataModel.cs" />
-      <File FileName="Test/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="Test/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="Test/wwwroot/css/site.css" Line="179" Column="1" />
+      <File FileName="Test/Views/_ViewStart.cshtml" />
+      <File FileName="Test/Views/_ViewImports.cshtml" />
+      <File FileName="Test/wwwroot/css/site.css" />
       <File FileName="Test/wwwroot/js/site.js" />
       <File FileName="Test/appsettings.Development.json" />
       <File FileName="Test/Views/Home/Index.cshtml~" />
       <File FileName="Test/Controllers/ChatbotController.cs~" />
-      <File FileName="Test/Controllers/HomeController.cs~" Line="1" Column="1" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml~" Line="1" Column="1" />
-      <File FileName="Test/Views/Shared/_Layout.cshtml~" Line="1" Column="1" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml" Line="33" Column="1" />
-      <File FileName="Test/Models/FAQModel.cs" Line="16" Column="1" />
-      <File FileName="Test/Auth.cshtml" Line="15" Column="132" />
-      <File FileName="Test/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="Test/Press.cshtml" Line="4" Column="88" />
-      <File FileName="Test/Views/Home/Press.cshtml~" Line="1" Column="1" />
+      <File FileName="Test/Controllers/HomeController.cs~" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml~" />
+      <File FileName="Test/Views/Shared/_Layout.cshtml~" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml" Line="21" Column="24" />
+      <File FileName="Test/Models/FAQModel.cs" Line="11" Column="25" />
+      <File FileName="Test/Views/Shared/Error.cshtml" />
+      <File FileName="Test/Views/Home/Press.cshtml~" />
+      <File FileName="Test/Controllers/ChatbotController.cs" Line="40" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Test" expanded="True">
             <Node name="Test" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ChatbotController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Press.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">

@@ -16,32 +16,25 @@ using Microsoft.AspNetCore.Mvc;
 namespace Test
 
 {
-    public class CBResponse
-    {
-        public string text { get; set; }
-       
-    }
-
+   
     public class ChatbotController : Controller
     {
 
-        static HttpClient client = new HttpClient();
+        
         // GET: /<controller>/
         public void Index()
         {
 
-            _ = getCBRespose("hey");
+            
             
             
            
         }
-
-        private static async Task getCBRespose(string input)
+        public void toggleIt()
         {
-            var streamTask = client.GetStreamAsync("https://chatbot-api-dtqb5qffza-ue.a.run.app/test?text=" + UrlEncode(input));
-            var response = await JsonSerializer.DeserializeAsync<List<CBResponse>>(await streamTask);
-            Console.Write(response);
 
         }
+
+       
     }
 }
