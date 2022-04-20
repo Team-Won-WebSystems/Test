@@ -4,17 +4,30 @@
 }
 <body background=@backPath>
     <div class="container" style="margin: auto; align-content: center">
-        <div id="onTop" class="text-center" style="margin-top: 5%; z-index: 2;">
-            <h1 style="margin: 5%">Sign In</h1>
-            <form method="post" style="background-color: transparent">
+        <div id="onTop" style="margin: 5%; z-index: 2;">
+            <h1>Sign In</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                
+                <button type="button" class="btn btn-primary" style=" text-algin: left; padding-inline: 10%; border-color: #74B9FF; background-color: #74B9FF">SIGN IN</button>
+            </form>
+            @*<form method="post" style="background-color: transparent">
                 <h2>Email</h2>
                 <input type="text" name="email" value="" />
                 <h2 style="margin-top: 2%">Password</h2>
                 <input type="text" name="password" value="" />
                 <br />
 
-            </form>
-            <button type="button" class="btn btn-primary" style=" margin: 2%; border-color: #74B9FF; background-color: #74B9FF">SIGN IN</button>
+            </form>*@
+           
         </div>
     </div>
     </body>
