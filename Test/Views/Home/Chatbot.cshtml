@@ -12,34 +12,31 @@
 
 </head>
 <h1 style="padding-bottom: 2%">FAQ</h1>
-<div class="vstack gap-3" style="margin-bottom: 10%">
-    @foreach (var item in Model)
-    {
 
-
-        
-    <a data-toggle="collapse" href="#@Html.DisplayFor(modelItem => item.icon)">
-        <div class="hstack gap-2" style="background-color: #DFF4FF; margin-top: 5%; padding: 3%">
-
-            <h2>@Html.DisplayFor(modelItem => item.icon)</h2>
-            <h2> @Html.DisplayFor(modelItem => item.title)</h2>
-
-
-        </div>
-        <div style="margin: 5%"class="collapse" id="@Html.DisplayFor(modelItem => item.icon)">
-            <h4> @Html.DisplayFor(modelItem => item.description)</h4>
-
-        </div>
-    </a>
+    <div class="vstack gap-3" style="margin-bottom: 10%; margin-right: 35%">
+        @foreach (var item in Model)
+        {
 
 
 
-    }
-</div>
-<h1 style="padding-bottom: 2%">Chatbot Support</h1>
-<iframe src="https://share.streamlit.io/team-won-websystems/chatbotbackend/main/main.py" title="description" style="width: 100%; height: 700px"></iframe>
+            <a data-toggle="collapse" href="#@Html.DisplayFor(modelItem => item.icon)">
+                <div class="hstack gap-2" style="background-color: #DFF4FF; margin-top: 5%; padding: 3%">
+
+                    <h2>@Html.DisplayFor(modelItem => item.icon)</h2>
+                    <h2> @Html.DisplayFor(modelItem => item.title)</h2>
 
 
-<script>function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    }</script>
+                </div>
+                <div style="margin: 5%" class="collapse" id="@Html.DisplayFor(modelItem => item.icon)">
+                    <h4> @Html.DisplayFor(modelItem => item.description)</h4>
+
+                </div>
+            </a>
+
+
+
+        }
+    </div>
+    <iframe style="min-height: 600px; min-width: 400px;position: fixed; display: block; z-index: 9; bottom: 0; right: 15px;" src="https://share.streamlit.io/team-won-websystems/chatbotbackend/main/main.py" title="description" style="width: 100%; height: 700px; "></iframe>
+
+

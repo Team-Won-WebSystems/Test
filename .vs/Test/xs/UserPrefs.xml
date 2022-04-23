@@ -3,10 +3,10 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Test/Models/ErrorViewModel.cs" Line="12" Column="1" />
-      <File FileName="Test/Controllers/HomeController.cs" />
+      <File FileName="Test/Controllers/HomeController.cs" Line="68" Column="10" />
       <File FileName="Test/Views/Home/Index.cshtml" />
       <File FileName="Test/Views/Home/Privacy.cshtml" />
-      <File FileName="Test/Views/Shared/_Layout.cshtml" Line="14" Column="140" />
+      <File FileName="Test/Views/Shared/_Layout.cshtml" />
       <File FileName="Test/Properties/launchSettings.json" />
       <File FileName="Test/appsettings.json" />
       <File FileName="Test/Program.cs" />
@@ -14,21 +14,21 @@
       <File FileName="Test/Models/DroneDataModel.cs" />
       <File FileName="Test/Views/_ViewStart.cshtml" />
       <File FileName="Test/Views/_ViewImports.cshtml" />
-      <File FileName="Test/wwwroot/css/site.css" />
+      <File FileName="Test/wwwroot/css/site.css" Line="179" Column="1" />
       <File FileName="Test/wwwroot/js/site.js" />
       <File FileName="Test/appsettings.Development.json" />
       <File FileName="Test/Views/Home/Index.cshtml~" />
       <File FileName="Test/Controllers/ChatbotController.cs~" />
       <File FileName="Test/Controllers/HomeController.cs~" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml~" Line="1" Column="1" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml~" />
       <File FileName="Test/Views/Shared/_Layout.cshtml~" />
-      <File FileName="Test/Views/Home/Chatbot.cshtml" />
+      <File FileName="Test/Views/Home/Chatbot.cshtml" Line="40" Column="1" />
       <File FileName="Test/Models/FAQModel.cs" />
       <File FileName="Test/Views/Shared/Error.cshtml" />
       <File FileName="Test/Views/Home/Press.cshtml~" />
       <File FileName="Test/Controllers/ChatbotController.cs" />
-      <File FileName="Test/Views/Home/Auth.cshtml" Line="17" Column="38" />
-      <File FileName="Test/Views/Home/Auth.cshtml~" />
+      <File FileName="Test/Views/Home/Auth.cshtml" />
+      <File FileName="Test/Views/Home/Auth.cshtml~" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -39,11 +39,13 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
-                  <Node name="Auth.cshtml" selected="True" />
+                  <Node name="Chatbot.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
